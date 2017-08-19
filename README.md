@@ -1,7 +1,9 @@
 [![Build Status](https://travis-ci.org/phenompeople/centos-oraclejava.svg?branch=master)](https://travis-ci.org/phenompeople/centos-oraclejava)
+[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://travis-ci.org/phenompeople/apache-storm)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Oracle JDK & JRE
-===============
+## Oracle JDK & JRE
+
 
 Dockerfiles for building a Java base images.
 
