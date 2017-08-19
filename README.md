@@ -14,15 +14,15 @@ The images are available directly from [phenompeople organization] (https://hub.
 
 ### Supported tags and respective `Dockerfile` links
 
-#### phenompeople/sunjdk
+#### phenompeople/centos-sunjdk
 
-* **`8u144` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-sunjdk/src/master/jdk/8u144/Dockerfile))**
-* **`8u131` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-sunjdk/src/master/jdk/8u131/Dockerfile))**
+* **`8u144` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
+* **`8u131` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
 
-#### phenompeople/sunjre
+#### phenompeople/centos-sunjre
 
-* **`8u144` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-sunjdk/src/master/jdk/8u144/Dockerfile))**
-* **`8u131` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-sunjdk/src/master/jdk/8u131/Dockerfile))**
+* **`8u144` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
+* **`8u131` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
 
 **NOTE:** `centos-sunjdk` and `centos-sunjre` provides only the base images which are build on ONBUILD instructions. The ONBUILD instruction adds to the image a trigger instruction to be executed at a later time, when the image is used as the base for another build.
 
