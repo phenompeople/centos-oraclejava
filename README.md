@@ -1,11 +1,10 @@
 [![Build Status](https://travis-ci.org/phenompeople/centos-oraclejava.svg?branch=master)](https://travis-ci.org/phenompeople/centos-oraclejava)
-[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://travis-ci.org/phenompeople/apache-storm)
+[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://travis-ci.org/phenompeople/centos-oraclejava)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Oracle JDK & JRE
 
-
-Dockerfiles for building a Java base images.
+Dockerfiles for building Centos based Oracle Java images.
 
 The images are available directly from [phenompeople organization] (https://hub.docker.com/u/phenompeople/)
 
@@ -18,37 +17,28 @@ The images are available directly from [phenompeople organization] (https://hub.
 
 #### phenompeople/centos-sunjdk
 
-* **`8u144` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
-* **`8u131` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
+* **`latest`		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
+* **`8u144` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
+* **`8u131` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
+* **`services`	([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
 
 #### phenompeople/centos-sunjre
 
-* **`8u144` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
-* **`8u131` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
-
-**NOTE:** `centos-sunjdk` and `centos-sunjre` provides only the base images which are build on ONBUILD instructions. The ONBUILD instruction adds to the image a trigger instruction to be executed at a later time, when the image is used as the base for another build.
+* **`latest` 	([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
+* **`8u144` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
+* **`8u131` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
+* **`services` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
 
 #### Pre-Requisites
 
 - install docker-engine [https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/)
 
-#### Usage of `onbuild` images
-
-These images can be used to bake your dependencies into an image by extending the plain storm images. To do so, create a custom `Dockerfile` like this:
-```dockerfile
-FROM phenompeople/centos-sunjdk
-```
-Don't forget to build that `Dockerfile`:
-```
-docker build --rm=true -t childimage .
-```
-```
-docker run --rm -t childimage
-```
 ## Maintainers
 
 * Rajesh Jonnalagadda (<rajesh.jonnalagadda@phenompeople.com>)
 
 ## License and Authors
-**License**	::		Apache License
-**Author**	::		Phenompeople Pvt Ltd (<admin.squad@phenompeople.com>)
+
+**License:**	Apache License
+
+**Author :** Phenompeople Pvt Ltd (<admin.squad@phenompeople.com>)

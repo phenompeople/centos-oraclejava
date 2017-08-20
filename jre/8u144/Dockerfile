@@ -6,7 +6,7 @@ RUN useradd phenom -d ${APP_HOME} -u 1000 && \
     yum install wget -y -q
 
 ARG JAVA_VERSION=8u144
-ARG JAVA_DIR=jdk1.8.0_144
+ARG JAVA_DIR=jre1.8.0_144
 ARG JAVA_BUILD=b01
 
 RUN  wget -q -O /tmp/jdk-linux-x64.tar.gz --no-cookies --no-check-certificate --header "Cookie: oraclelicense=accept-securebackup-cookie" \
