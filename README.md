@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/phenompeople/centos-oraclejava.svg?branch=master)](https://travis-ci.org/phenompeople/centos-oraclejava)
-[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://travis-ci.org/phenompeople/centos-oraclejava)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Oracle JDK & JRE
@@ -17,12 +16,20 @@ The images are available directly from [phenompeople organization] (https://hub.
 
 #### phenompeople/centos-sunjdk
 
+[![Docker Automated build](https://img.shields.io/docker/automated/phenompeople/centos-sunjdk.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-sunjdk/)
+[![Docker Build Status](https://img.shields.io/docker/build/phenompeople/centos-sunjdk.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-sunjdk/)
+[![JDK Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/centos-sunjdk.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-sunjdk/)
+
 * **`latest`		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
 * **`8u144` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
 * **`8u131` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
 * **`services`	([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
 
 #### phenompeople/centos-sunjre
+
+[![Docker Automated build](https://img.shields.io/docker/automated/phenompeople/centos-sunjre.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-sunjre/)
+[![Docker Build Status](https://img.shields.io/docker/build/phenompeople/centos-sunjre.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-sunjre/)
+[![JRE Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/centos-sunjre.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-sunjre/)
 
 * **`latest` 	([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
 * **`8u144` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
