@@ -21,7 +21,7 @@ The images are available directly from [phenompeople organization] (https://hub.
 [![JDK Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/centos-sunjdk.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-sunjdk/)
 
 * **`latest`		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
-* **`8u144` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
+* **`8u144` 		([jdk/8u144/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
 * **`8u131` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
 * **`services`	([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
 
@@ -31,8 +31,8 @@ The images are available directly from [phenompeople organization] (https://hub.
 [![Docker Build Status](https://img.shields.io/docker/build/phenompeople/centos-sunjre.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-sunjre/)
 [![JRE Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/centos-sunjre.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-sunjre/)
 
-* **`latest` 	([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
-* **`8u144` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
+* **`latest` 	([jdk/8u144/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
+* **`8u144` 		([jdk/8u144/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u144/Dockerfile))**
 * **`8u131` 		([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
 * **`services` ([jdk/8u131/Dockerfile](https://bitbucket.org/phenompeople/centos-oraclejava/src/master/jdk/8u131/Dockerfile))**
 
